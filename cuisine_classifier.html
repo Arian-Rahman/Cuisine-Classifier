@@ -1,29 +1,50 @@
 ---
 title: Cuisine Classifier 
-layout : page
+layout: page
 ---
 
-<input id="photo" type="file">
-<div id="results"></div>
-<script>
+<input id="photo" type="file" accept="image/*">
+<div id="image-container">
+  <h3>Uploaded Image:</h3>
+  <img id="uploadedImage" alt="Your uploaded image will appear here" width="300">
+</div>
+<div id="results"></div> 
 
+<script type="module">
+  // Assuming Gradio client is available via CDN (you may need to adjust this based on the availability)
+  // import { Client } from "https://cdn.jsdelivr.net/npm/@gradio/client@0.0.16";
+
+  document.getElementById('photo').addEventListener('change', async function (event) {
+    const file = event.target.files[0];
+    
+    if (file) {
+      // Display the uploaded image
+      const imgElement = document.getElementById('uploadedImage');
+      imgElement.src = URL.createObjectURL(file);
+
+      // Read the image file as a blob
+      const reader = new FileReader();
+      reader.readAsArrayBuffer(file);
+      reader.onloadend = async function () {
+        const blob = new Blob([reader.result], { type: file.type });
+
+        try {
+          // Initialize Gradio Client
+          const client = await Client.connect("soothsayer1221/cuisine_classifier");
+
+          // Send the uploaded image for prediction
+          const result = await client.predict("/predict", { 
+              image: blob
+          });
+
+          // Display the prediction result
+          document.getElementById('results').innerHTML = `<h3>Prediction: ${result.data}</h3>`;
+        } catch (error) {
+          console.error("Error in prediction:", error);
+          document.getElementById('results').textContent = "Error in prediction.";
+        }
+      };
+    }
+  });
 </script>
 
-
-<!-- 
-
-npm i -D @gradio/client
-
-import { Client } from "@gradio/client";
-
-const response_0 = await fetch("https://raw.githubusercontent.com/gradio-app/gradio/main/test/test_files/bus.png");
-const exampleImage = await response_0.blob();
-						
-const client = await Client.connect("soothsayer1221/cuisine_classifier");
-const result = await client.predict("/predict", { 
-				image: exampleImage, 
-});
-
-console.log(result.data); 
-
--->
