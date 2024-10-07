@@ -3,26 +3,40 @@ title : Home
 layout: page
 ---
 
-Cuisine Classifier : 
+## Cuisine Classifier : 
 
-Here you can classify any of the mentioned cuisines  </br>
+Here you can classify any of the mentioned cuisines 
 
-### American </br>
-- burger, Fried chicken, Hot dog </br>
+### Japanese
+    - okonomiyaki
+    - ramen
+    - sushi
 
-### Indian </br>
-- Fuchka, biriyani, khichuri, Samosa </br>
+### Mexican 
+    - Chilaquiles
+    - nachos
+    - tacos 
 
-### Italian </br>
-- lasagna, pizza, spaghetti </br>
+### Turkish
+    - baklava 
+    - kebab
+    - Meze food
+    - shawarma 
+    
+### American 
+    - burger
+    - Fried chicken 
+    - Hot dog 
 
-### Japanese </br>
-- okonomiyaki, ramen, sushi </br>
+### Indian 
+    - Fuchka
+    - biriyani
+    - khichuri 
+    - Samosa
 
-### Mexican </br>
-- Chilaquiles, nachos, tacos </br>
+### Italian 
+    - lasagna
+    - pizza
+    - spaghetti 
 
-### Turkish </br>
-- baklava, kebab, Meze food, shawarma </br>
 
-</br>
