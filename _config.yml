@@ -1,0 +1,9 @@
+remote_theme : automatic-app-landing-page@master
+plugins:
+- jekyll-remote-theme
+
+title : Cuisine Classifier
+description :  Can identify 20 popular Cuisines from all around the world 
+
+author:
+  name: Arian Rahman
