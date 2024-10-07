@@ -2,6 +2,10 @@ remote_theme : automatic-app-landing-page@master
 plugins:
 - jekyll-remote-theme
 
+permissions:
+  id-token: write
+  contents: read
+
 title : Cuisine Classifier
 description :  Can identify 20 popular Cuisines from all around the world 
 
