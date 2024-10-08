@@ -3,6 +3,7 @@ title : Home
 layout: page
 ---
 
+
 ## Cuisine Classifier : 
 
 Here you can classify any of the mentioned cuisines 
