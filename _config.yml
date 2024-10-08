@@ -13,9 +13,9 @@
 # plugins:
 # - jekyll-remote-theme
 
-remote-theme : PQuod/simply-cyan-theme
+remote-theme : jekyllup/jekyll-theme-massively@master
 plugins:
-  - jekyll-remote-theme
+- jekyll-remote-theme
 
 
 navigation:
