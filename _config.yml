@@ -20,3 +20,7 @@ description :  Can identify 20 popular Cuisines from all around the world
 
 author:
   name: Arian Rahman
+
+exclude:
+  - upload_LFS_guide.md
+  - README.html
