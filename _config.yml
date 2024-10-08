@@ -13,6 +13,11 @@ remote_theme: daviddarnes/alembic@main
 plugins:
 - jekyll-remote-theme
 
+navigation:
+  - name: Home
+    link: /
+  - name: Cuisine Classifier
+    link: /cuisine_classifier.html
 
 
 permissions:
