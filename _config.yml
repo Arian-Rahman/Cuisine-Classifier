@@ -9,12 +9,7 @@
 #remote_theme: PQuod/simply-cyan-theme
 
 
-# remote_theme: daviddarnes/alembic@main
-# plugins:
-# - jekyll-remote-theme
-
-
-remote_theme: h01000110/windows-95@master
+remote_theme: daviddarnes/alembic@main
 plugins:
 - jekyll-remote-theme
 
