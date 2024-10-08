@@ -15,6 +15,7 @@
 
 remote-theme : mmistakes/so-simple-theme@master
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
