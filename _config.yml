@@ -2,21 +2,16 @@
 # remote-theme : h01000110/windows-95@master
 # plugins:
 # - jekyll-remote-theme
-  
+
 # plugins:
 #   - jekyll-feed
 #   - jekyll-remote-theme
 #remote_theme: PQuod/simply-cyan-theme
 
 
-# remote_theme: daviddarnes/alembic@main
-# plugins:
-# - jekyll-remote-theme
-
-remote-theme : jekyllup/jekyll-theme-massively@master
+remote_theme: daviddarnes/alembic@main
 plugins:
 - jekyll-remote-theme
-
 
 navigation:
   - name: Home
@@ -31,6 +26,7 @@ permissions:
 
 title : Cuisine Classifier
 description :  Can identify 20 popular Cuisines from all around the world 
+
 
 author:
   name: Arian Rahman
