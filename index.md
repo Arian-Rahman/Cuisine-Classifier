@@ -8,6 +8,10 @@ layout: page
 
 Discover the flavors of the world! This tool allows you to classify popular dishes from various cuisines, helping you identify where your food originates. Explore the list of cuisines below and get started!
 
+This web app allows you to classify dishes from various cuisines around the world! Click the link below to try out our Cuisine Classifier:
+
+- [Cuisine Classifier](/cuisine_classifier.html)
+
 ---
 
 ## 🌏 Available Cuisines:
