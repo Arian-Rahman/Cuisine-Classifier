@@ -14,7 +14,8 @@ Cuisines the model can clasify
 | **🇮🇳 Indian**   | Fuchka, Biriyani, Khichuri, Samosa          |
 | **🇮🇹 Italian**  | Lasagna, Pizza, Spaghetti                   |
 
-
+Check out the web app [Cuisine Classifier]( arian-rahman.github.io/cuisen_identifier/ )
+ 
 ## 📊 Dataset Preparation
 
 - **Data Collection**: Images were gathered using DuckDuckGo and organized into a dynamically generated folder structure. 
