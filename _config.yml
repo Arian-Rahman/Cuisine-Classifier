@@ -14,8 +14,8 @@
 # - jekyll-remote-theme
 
 remote-theme : h01000110/windows-95@master
-plugins:
-- jekyll-remote-theme
+# plugins:
+# - jekyll-remote-theme
 
 navigation:
   - name: Home
