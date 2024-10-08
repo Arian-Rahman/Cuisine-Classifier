@@ -13,9 +13,12 @@
 # plugins:
 # - jekyll-remote-theme
 
-remote-theme : h01000110/windows-95@master
-# plugins:
-# - jekyll-remote-theme
+remote-theme : mmistakes/so-simple-theme@master
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
 
 navigation:
   - name: Home
