@@ -1,9 +1,45 @@
----
+<!-- ---
 title: Cuisine Classifier
 layout: page
 ---
 <input id="photo" type="file" accept="image/*">
-<div id="results"></div>
+<div id="results"></div> -->
+
+
+---
+title: Cuisine Classifier
+layout: page
+---
+
+# 🍲 Cuisine Classifier
+
+Upload an image of your favorite dish below, and let our classifier predict its cuisine. The model recognizes a variety of international cuisines!
+
+---
+
+## 📷 Upload Your Dish:
+
+Simply select an image of your dish, and we will classify it for you.
+
+<div style="margin-top: 20px; text-align: center;">
+  <input id="photo" type="file" accept="image/*" style="font-size: 1.2em; padding: 10px; margin-bottom: 20px;">
+</div>
+
+<div id="results" style="display: flex; justify-content: center; align-items: center; font-size: 1.2em; margin-top: 20px;">
+  <!-- Result will be displayed here -->
+</div>
+
+---
+
+## 🍽 How It Works:
+
+1. **Choose an image**: Upload a photo of a dish from your device.
+2. **Get a prediction**: The Cuisine Classifier will analyze the image and predict the cuisine.
+3. **Explore more**: Try different dishes to discover their origins.
+
+Once you upload your image, the predicted cuisine will appear next to it below.
+
+---
 
 <script>
   async function loaded(reader) {   
