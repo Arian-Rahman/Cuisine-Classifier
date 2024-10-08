@@ -1,8 +1,7 @@
-<!-- ---
+---
 title : Home
 layout: page
---- -->
-
+---
 
 ## Cuisine Classifier : 
 
