@@ -23,7 +23,7 @@ exclude:
   - upload_LFS_guide.md
   - README.md
   - deployment/README.md
-  - data/README.md
+  - data/readme.md
 
 
 
