@@ -9,14 +9,12 @@ navigation:
   - name: Cuisine Classifier
     link: /cuisine_classifier.html
 
-
 permissions:
   id-token: write
   contents: read
 
 title : Cuisine Classifier
-description :  Can identify 20 popular Cuisines from all around the world 
-
+description : Can identify 20 popular Cuisines from all around the world 
 
 author:
   name: Arian Rahman
@@ -24,3 +22,33 @@ author:
 exclude:
   - upload_LFS_guide.md
   - README.md
+  - deployment/README.md
+  - data/README.md
+
+
+
+# remote_theme: daviddarnes/alembic@main
+# plugins:
+# - jekyll-remote-theme
+
+# navigation:
+#   - name: Home
+#     link: /
+#   - name: Cuisine Classifier
+#     link: /cuisine_classifier.html
+
+
+# permissions:
+#   id-token: write
+#   contents: read
+
+# title : Cuisine Classifier
+# description :  Can identify 20 popular Cuisines from all around the world 
+
+
+# author:
+#   name: Arian Rahman
+
+# exclude:
+#   - upload_LFS_guide.md
+#   - README.md
