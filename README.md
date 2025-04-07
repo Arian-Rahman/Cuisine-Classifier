@@ -14,7 +14,7 @@ Cuisines the model can clasify
 | **🇮🇳 Indian**   | Fuchka, Biriyani, Khichuri, Samosa          |
 | **🇮🇹 Italian**  | Lasagna, Pizza, Spaghetti                   |
 
-Check out the web app [Cuisine Classifier](https://arian-rahman.github.io/cuisen_identifier/)
+Check out the web app [Cuisine Classifier](https://arian-rahman.github.io/Cuisine-Classifier/)
  
 ## 📊 Dataset Preparation
 
@@ -45,7 +45,7 @@ Check out the web app [Cuisine Classifier](https://arian-rahman.github.io/cuisen
 
 ## 🌐 API Integration with GitHub Pages
 
-- The model’s API is integrated into a GitHub Pages site. Explore the live classifier [here](https://arian-rahman.github.io/cuisen_identifier/).
+- The model’s API is integrated into a GitHub Pages site. Explore the live classifier [here](https://arian-rahman.github.io/Cuisine-Classifier/).
 - The necessary files for GitHub Pages can be found in the repository under the main branch.
 
 
